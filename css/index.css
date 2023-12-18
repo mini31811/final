@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+.wrap{
+    margin: 0 auto;
+}
 a{
     text-decoration: none;
 }
@@ -56,7 +59,7 @@ a{
 
 .header{
     background: rgb(246, 246, 246);
-    height: 25px;
+    
     text-align: right;
 }
 .header li{
@@ -76,6 +79,14 @@ a{
     padding-right: 20px;
 
 }
+.sns1:hover{
+    color:rgb(124, 150, 212);
+}
+
+.sns2:hover{
+    color: rgb(104, 201, 240);
+}
+
 .header img{
     width: 13px;
     height: 13px;
@@ -180,7 +191,7 @@ nav ul a:hover{
 }
     
 
-table{
+.lesson{
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -188,7 +199,7 @@ table{
     
     
 }
-table tr{
+.lesson .less-1{
     border-bottom: 1px solid rgb(181, 173, 173);
     border-top: 1px solid rgb(181, 173, 173);
     line-height: 2.5;
